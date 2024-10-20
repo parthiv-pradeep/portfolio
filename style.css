@@ -658,12 +658,18 @@ footer{
     .middle-footer{
         display: none;
     }
+    .about{
+    display: flex;
+    border-radius: 10px;
+    }
     .about h1{
         font-size: 1.5rem;
 
     }
     .about p{
-        font-size: 14px;
+        width:80vw ;
+    font-size: 14px;
+    text-align: justify
     }
 
     .skill {
